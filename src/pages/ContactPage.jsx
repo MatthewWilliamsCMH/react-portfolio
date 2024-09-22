@@ -1,26 +1,26 @@
+import './css/contact.css';
+
 export default function ContactPage() {
   return (
-    <div>
+    <form>
+      <label htmlFor = "name">Name:</label><br />
+      <input type = "text" id = "name" name = "name" required />
+      <p></p>
+      <label htmlFor = "email">Email address:</label><br />
+      <input type = "email" id = "email" name = "email" required />
+      <p></p>
+      <label htmlFor = "message">Message for Matthew:</label><br />
+      <textarea 
+        id = "message" 
+        name = "message" 
+        spellCheck = "true" 
+        resizeable = "true" 
+        required
+      />
+      <p></p>
       <a href="mailto:matthewilliamscmh@icloud.com">
         <button type = "button">Send</button>
       </a>
-      <label for = "name">Name:
-        <input type = "text" id = "name" name = "name" required />
-      </label>
-      <label for = "email">Email address:
-        <input type = "email" id = "email" name = "email" required />
-      </label>
-      <label for = "message">Message for Matthew:
-        <textarea 
-          id = "message" 
-          name = "message" 
-          spellcheck = "true" 
-          max-width = "240" 
-          min-width = "240" 
-          resizeable = "true" 
-          required
-        />
-      </label>
-    </div>
+    </form>
   )
 }

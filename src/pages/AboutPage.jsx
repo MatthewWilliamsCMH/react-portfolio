@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <div>
-      <img src = "./assets/matthewwilliams.jpg" width = "100px" alt = "avatar of Matthew Williams" />
+      <img src = "/src/assets/matthewwilliams.jpg" width = "100px" alt = "avatar of Matthew Williams" />
       <p>
         Short Bio
       </p>

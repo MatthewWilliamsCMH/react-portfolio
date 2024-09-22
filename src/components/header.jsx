@@ -1,8 +1,14 @@
+import Navbar from "./navbar";
+
 function Header() {
   return (
     <div>
-      <h1>Matthew Williams Portfolio</h1>
-      <p><a href = "mailto:matthewwilliamscmh@icloud.com">matthewwilliamscmh@icloud.com</a></p>
+      <h6>Portfolio</h6>
+      <h1>Matthew Williams</h1>
+      <a href = "mailto:matthewwilliamscmh@icloud.com">matthewwilliamscmh@icloud.com</a>
+      <nav>
+        <Navbar />
+      </nav>
     </div>
   );
 }
