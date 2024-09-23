@@ -1,21 +1,21 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 //connects buttons (just links in this case) in the navbar to the routes that will call the appropriate pages 
 export default function Navbar() {
   return (
     <nav>
-      <Link to="/" className = "button">
+      <NavLink to="/" exact>
         About
-      </Link>
-      <Link to="/projects" className = "button">
+      </NavLink>
+      <NavLink to="/projects" activeClassName = "active">
         &emsp;Projects
-      </Link>
-      <Link to="/Resume" className = "button">
+      </NavLink>
+      <NavLink to="/Resume">
         &emsp;Resume
-      </Link>
-      <Link to="/Contact" className = "button">
+      </NavLink>
+      <NavLink to="/Contact">
         &emsp;Contact
-      </Link>
+      </NavLink>
     </nav>
   );
 }

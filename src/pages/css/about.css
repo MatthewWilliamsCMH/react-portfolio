@@ -1,0 +1,11 @@
+#about {
+  text-align: left;
+  display: inline-flex;
+  gap: 20px;
+  width: 320px;
+  margin-top: 20px;
+}
+
+#biography > p {
+  margin-top: 0px;
+}

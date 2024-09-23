@@ -24,3 +24,6 @@ export default function ContactPage() {
     </form>
   )
 }
+
+
+//Does this form need to be functional? The Readme doesn't say so, and it's not possible to send an email directly from the jsx without a backend (I think).

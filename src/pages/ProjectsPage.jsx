@@ -1,3 +1,4 @@
+import "./css/projects.css";
 import ProjectCard from "../components/cards/ProjectCard";
 
 const projects = [
@@ -5,7 +6,7 @@ const projects = [
     title: "J.A.T.E Text Editor",
     url: "http://jate-text-editor-9o20.onrender.com",
     gitRepo: "https://github.com/MatthewWilliamsCMH/JATE-text-editor",
-    image: "../assets/jate-text-editor.jpg"
+    image: "src/assets/jate-text-editor.jpg"
   },
     {
     title: "Pet Tracker",
@@ -41,7 +42,7 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <div className="projects-page">
+    <div id = "projects">
       {projects.map((project, index) => (
         <ProjectCard 
           key={index}

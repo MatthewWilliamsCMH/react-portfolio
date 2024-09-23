@@ -1,17 +1,35 @@
+import './css/resume.css';
+
 export default function ResumePage() {
   return (
     <>
-      <div>
-      <a href = "./assets/matthewwilliamsresume.pdf" download = "Resume_Matthew Williams.pdf">
-          <button type = "button">Download Resume</button>
+    <div id = "resume">
+      <div id = "pdf">
+        <a href = "src/assets/resume-matthew-williams.pdf" download>
+          <button type = "button">Download</button>
         </a>
       </div>
-      <div>
-        <h1>Coding Skills</h1>
-        <ul>
-          <li>Item</li>
-          <li>Item</li>
-        </ul>
+        <div id = "skills">
+          <h2>Coding Skills</h2>
+          <ul>
+            <li>CSS</li>
+            <li>Handlebars</li>
+            <li>HTML</li>
+            <li>React</li>
+            <li>Javascript</li>
+            <li>Express</li>
+            <li>NodeJS</li>
+            <li>GraphQL</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>SQL and Sequelize</li>
+            <li>PWA Development</li>
+            <li>Figma</li>
+            <li>GitHub</li>
+            <li>Insomnia</li>
+            <li>Render</li>
+          </ul>
+        </div>
       </div>
     </>
   )
