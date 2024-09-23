@@ -1,4 +1,5 @@
 import "./css/projects.css";
+
 import ProjectCard from "../components/cards/ProjectCard";
 
 const projects = [
