@@ -8,3 +8,16 @@ ul {
   list-style: none;
   padding-left: 0px;
 }
+
+/* --------- breakpoints ----------
+321-768
+769+
+*/
+
+@media (min-width: 769px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+}

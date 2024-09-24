@@ -5,26 +5,24 @@
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
   font-size: 1.15rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   box-sizing: border-box;
 }
 
 body {
   text-align: center;
-  align-content:top;
-  width:320px;
-  min-width: 320px;
+  /* width: calc(100% - 40px); */
+  /* max-width: 1280px; */
   min-height: 100vh;
-  left:0;
-  right:0;
+  min-width: 320px;
+  left: 0;
+  right: 0;
   margin: auto;
   padding-bottom: 90px;
 }
 
 #root {
-  margin: auto;
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--main-orange);
 }
 
 h1 {
@@ -88,16 +86,4 @@ button:hover {
 .active {
   text-shadow: 0 0 10px var(--main-orange);
   cursor: auto;
-}
-
-/* --------- breakpoints ----------
-321-768
-769-1279
-1280+
-*/
-
-@media min-width: 321px {
-  body {
-    line-height: 1.4;
-  }
 }
