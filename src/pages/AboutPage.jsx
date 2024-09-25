@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <div id = "about">
       <div>
-        <img src = "/src/assets/matthewwilliams.jpg" id = "avatar" alt = "avatar of Matthew Williams" />
+        <img src = "/matthewwilliams.jpg" id = "avatar" alt = "avatar of Matthew Williams" />
       </div>
       <div id = "biography">
         <p>I've spent more than 30 years as a typesetter and book designer, but I've seen the writing on the wall. It's pretty apparent that AI is going to put me out of business before I'm ready to retire. &ldquo;Time to retool,&rdquo; I&nbsp;thought to myself, but to do what?</p>
