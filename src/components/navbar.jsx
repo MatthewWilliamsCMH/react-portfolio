@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav>
       <NavLink to="/" exact>
-        About
+        About Me
       </NavLink>
       <NavLink to="/projects" activeClassName = "active">
         &emsp;Projects
