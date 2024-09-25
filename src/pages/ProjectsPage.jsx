@@ -11,33 +11,33 @@ const projects = [
   },
     {
     title: "Pet Tracker",
-    url: "",
+    url: "http://pet-tracker.onrender.com",
     gitRepo: "https://github.com/MatthewWilliamsCMH/pet-tracker",
     image: ""
   },
     {
-    title: "Logo Generator",
-    url: "",
-    gitRepo: "https://github.com/MatthewWilliamsCMH/logo-generator/",
-    image: ""
+    title: "Matthew’s Taskboard",
+    url: "https://matthewwilliamscmh.github.io/matthews-taskboard/",
+    gitRepo: "https://github.com/MatthewWilliamsCMH/matthews-taskboard/",
+    image: "src/assets/matthews-taskboard.jpg"
   },
     {
-    title: "Employee Tracker",
-    url: "",
+    title: "Employee Payroll Tracker",
+    url: "https://matthewwilliamscmh.github.io/EmployeeTracker/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/employee-tracker/",
-    image: ""
+    image: "src/assets/employee-tracker.jpg"
   },
     {
-    title: "Tech Blog",
-    url: "",
-    gitRepo: "https://github.com/MatthewWilliamsCMH/tech-blog/",
-    image: ""
+    title: "Matthew’s Blog",
+    url: "https://matthewwilliamscmh.github.io/matthews-blog/",
+    gitRepo: "https://github.com/MatthewWilliamsCMH/matthews-blog/",
+    image: "src/assets/matthews-blog.jpg"
   },
     {
-    title: "Read Me Generator",
-    url: "",
-    gitRepo: "https://github.com/MatthewWilliamsCMH/readme-generator/",
-    image: ""
+    title: "Weather Report",
+    url: "https://matthewwilliamscmh.github.io/weather-report/",
+    gitRepo: "https://github.com/MatthewWilliamsCMH/weather-report/",
+    image: "src/assets/weather-report.jpg"
   }
 ];
 

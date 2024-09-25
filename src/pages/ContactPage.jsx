@@ -2,10 +2,10 @@ import "./css/contact.css";
 import React, { useState } from "react";
 
 export default function ContactPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [errors, setErrors] = useState({ name: "", email: "", message: "" });
+  let [name, setName] = useState("");
+  let [email, setEmail] = useState("");
+  let [message, setMessage] = useState("");
+  let [errors, setErrors] = useState({ name: "", email: "", message: "" });
 
   const validateField = (fieldName, value) => {
     if (!value.trim()) {
@@ -54,8 +54,8 @@ export default function ContactPage() {
 
         <label htmlFor = "message">Message for Matthew:</label><br />
         <textarea 
-          id = "message" 
           name = "message" 
+          id = "message" 
           spellCheck = "true" 
           resizeable = "true" 
           onChange = {(event) => setMessage(event.target.value)} 
