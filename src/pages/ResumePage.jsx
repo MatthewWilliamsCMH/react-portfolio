@@ -5,7 +5,7 @@ export default function ResumePage() {
     <>
     <div id = "resume">
       <div id = "pdf">
-        <a href = "src/assets/resume-matthew-williams.pdf" download>
+        <a href = "/resume-matthew-williams.pdf" download>
           <button type = "button">Download Resume</button>
         </a>
       </div>

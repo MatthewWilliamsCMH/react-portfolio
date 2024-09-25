@@ -7,7 +7,7 @@ const projects = [
     title: "J.A.T.E Text Editor",
     url: "http://jate-text-editor-9o20.onrender.com",
     gitRepo: "https://github.com/MatthewWilliamsCMH/JATE-text-editor",
-    image: "src/assets/jate-text-editor.jpg"
+    image: "/jate-text-editor.jpg"
   },
     {
     title: "Pet Tracker",
@@ -19,25 +19,25 @@ const projects = [
     title: "Matthew’s Taskboard",
     url: "https://matthewwilliamscmh.github.io/matthews-taskboard/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/matthews-taskboard/",
-    image: "src/assets/matthews-taskboard.jpg"
+    image: "/matthews-taskboard.jpg"
   },
     {
     title: "Employee Payroll Tracker",
     url: "https://matthewwilliamscmh.github.io/EmployeeTracker/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/employee-tracker/",
-    image: "src/assets/employee-tracker.jpg"
+    image: "/employee-tracker.jpg"
   },
     {
     title: "Matthew’s Blog",
     url: "https://matthewwilliamscmh.github.io/matthews-blog/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/matthews-blog/",
-    image: "src/assets/matthews-blog.jpg"
+    image: "/matthews-blog.jpg"
   },
     {
     title: "Weather Report",
     url: "https://matthewwilliamscmh.github.io/weather-report/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/weather-report/",
-    image: "src/assets/weather-report.jpg"
+    image: "/weather-report.jpg"
   }
 ];
 
