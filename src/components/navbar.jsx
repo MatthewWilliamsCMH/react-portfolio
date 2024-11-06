@@ -8,13 +8,13 @@ export default function Navbar() {
         About Me
       </NavLink>
       <NavLink to="/projects" activeClassName = "active">
-        &emsp;Projects
+        &ensp;|&ensp;Projects
       </NavLink>
       <NavLink to="/Resume">
-        &emsp;Resume
+        &ensp;|&ensp;Resume
       </NavLink>
       <NavLink to="/Contact">
-        &emsp;Contact
+        &ensp;|&ensp;Contact
       </NavLink>
     </nav>
   );
