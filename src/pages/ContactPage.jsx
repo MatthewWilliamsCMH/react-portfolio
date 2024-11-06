@@ -60,7 +60,7 @@ export default function ContactPage() {
           resizeable = "true" 
           onChange = {(event) => setMessage(event.target.value)} 
           onBlur = {handleBlur} 
-          placeholder = {errors.message}
+          placeholder = "This form is not currently functional."
           
         />
 
