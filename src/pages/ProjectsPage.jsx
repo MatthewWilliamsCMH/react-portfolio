@@ -3,6 +3,12 @@ import "./css/projects.css";
 import ProjectCard from "../components/cards/ProjectCard";
 
 const projects = [
+    {
+    title: "Summit Chase Tree Inventory",
+    url: "https://treeinventory.onrender.com",
+    gitRepo: "https://treeinventory.onrender.com",
+    image: "/treeinventory.jpg"
+  },
   {
     title: "J.A.T.E Text Editor",
     url: "http://jate-text-editor-9o20.onrender.com",
@@ -26,12 +32,6 @@ const projects = [
     url: "https://matthewwilliamscmh.github.io/EmployeeTracker/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/employee-tracker/",
     image: "/employee-tracker.jpg"
-  },
-    {
-    title: "Matthew’s Blog",
-    url: "https://matthewwilliamscmh.github.io/matthews-blog/",
-    gitRepo: "https://github.com/MatthewWilliamsCMH/matthews-blog/",
-    image: "/matthews-blog.jpg"
   },
     {
     title: "Weather Report",
