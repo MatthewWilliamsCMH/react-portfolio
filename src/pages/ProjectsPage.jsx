@@ -5,8 +5,8 @@ import ProjectCard from "../components/cards/ProjectCard";
 const projects = [
     {
     title: "Summit Chase Tree Inventory",
-    url: "https://github.com/MatthewWilliamsCMH/TreeInventory",
-    gitRepo: "https://treeinventory.onrender.com",
+    url: "https://treeinventory.onrender.com",
+    gitRepo: "https://github.com/MatthewWilliamsCMH/TreeInventory",
     image: "/treeinventory.jpg"
   },
   {
