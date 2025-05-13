@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "J.A.T.E Text Editor",
-    url: "http://jate-text-editor-9o20.onrender.com",
+    url: "https://j-a-t-e-pwa-text-editor.onrender.com",
     gitRepo: "https://github.com/MatthewWilliamsCMH/JATE-text-editor",
     image: "/jate-text-editor.jpg"
   },
@@ -29,8 +29,8 @@ const projects = [
   },
     {
     title: "Employee Payroll Tracker",
-    url: "https://matthewwilliamscmh.github.io/EmployeeTracker/",
-    gitRepo: "https://github.com/MatthewWilliamsCMH/employee-tracker/",
+    url: "https://matthewwilliamscmh.github.io/employee-payroll-tracker/",
+    gitRepo: "https://github.com/MatthewWilliamsCMH/employee-payroll-tracker/",
     image: "/employee-tracker.jpg"
   },
     {
