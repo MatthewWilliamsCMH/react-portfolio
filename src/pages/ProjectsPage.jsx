@@ -17,7 +17,7 @@ const projects = [
   },
     {
     title: "Pet Tracker",
-    url: "https://pet-tracker-hldv.onrender.com",
+    url: "https://pet-tracker-pyck.onrender.com/",
     gitRepo: "https://github.com/MatthewWilliamsCMH/pet-tracker",
     image: "/pet-tracker.jpg"
   },
